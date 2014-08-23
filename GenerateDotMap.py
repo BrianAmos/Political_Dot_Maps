@@ -23,8 +23,8 @@ inverty = True # images have the (0,0) point in the top left, UTM has it in the 
 
 
 limitextent = False                        # False to spit out the full map, True for a subsection
-topleftbound = (30.494169, -81.899422)     # | if you set limitextent to True, what bounding box do you want?
-bottomrightbound = (30.136146, -81.409157) # | uses Google Maps' coordinate system (WGS84) - click a point, it'll show the coordinates
+topleftbound = (30.494169, -81.899422)     # | if you set limitextent to True, what bounding box do you want? uses Google Maps' coordinate system (WGS84) for convenience,
+bottomrightbound = (30.136146, -81.409157) # | so click a point in Google Maps, it'll show the coordinates in the top left
 UTMZone = 17                               # what UTM zone are your coordinates in (just the number)? If you're using the Florida data included with this file, keep this at 17.
 
 
